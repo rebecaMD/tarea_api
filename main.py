@@ -1,5 +1,5 @@
 import pandas as pd
-from fastapi import FastAPI, status, HTTPException
+from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import Optional, List
 import joblib
