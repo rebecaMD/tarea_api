@@ -1,7 +1,8 @@
-from fastapi import FastAPI, HTTPException
+import pandas as pd
+from fastapi import FastAPI, status, HTTPException
 from pydantic import BaseModel
-from typing import Optional
-
+from typing import Optional, List
+import joblib
 
 app = FastAPI()
 
